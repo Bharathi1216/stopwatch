@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #170e94;
+    margin:10px;
+}
+
+.container {
+    text-align: center;
+    background: rgb(249, 249, 248);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10 10 30px rgba(0, 0, 0, 0.1);
+    margin: top 100px;
+}   
+
+#display {
+    font-size: 6em;
+    margin-bottom: 30px;
+    position: relative;
+    bottom:270px;
+    left:-5px;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 20px 30px;
+    margin: 5px;
+    border:#5bc0de;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 90px;
+}
+
+#start { background-color: #4CAF50; color: white; }
+#pause { background-color: #f0ad4e; color: white; }
+#reset { background-color: #d9534f; color: white; }
+#lap { background-color: #5bc0de; color: white; }
+#elapsed { background-color: #6c757d; color: white; }
+
+#laps, #elapsedTime {
+   
+    position:relative;
+    left:3px;
+    bottom: 50px;
+    font-size:3em;
+}
+.stopwatch 
+{
+    position:relative;
+    top:15px;
+    font-size: 2em ;
+
+}
+.stop 
+{
+position:relative;
+top:30px;
+left:3px;
+width:700px;
+height:500px;
+}
